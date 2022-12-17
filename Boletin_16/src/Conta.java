@@ -54,4 +54,12 @@ public class Conta {
     public void setCliente(Persoa cliente) {
         this.cliente = cliente;
     }
+
+    @Override
+    public String toString() {
+        return " numeroConta=" + numeroConta+
+        " saldo=" + saldo+
+        " cliente=" + cliente;
+
+    }
 }

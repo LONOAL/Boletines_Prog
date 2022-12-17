@@ -9,4 +9,10 @@ public class CuentaCorriente extends Conta {
 
     }
 
+    @Override
+    public String toString() {
+        return
+                super.toString()+" interes=" + interes
+                ;
+    }
 }
